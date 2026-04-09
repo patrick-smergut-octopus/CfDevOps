@@ -10,7 +10,7 @@ spec:
   - matrix:
       generators:
       - git:
-          repoURL: https://github.com/aperture-sci/DevOps.git
+          repoURL: https://github.com/patrick-smergut-octopus/CfDevOps.git
           revision: HEAD
           directories:
             - path: manifests/loan/*
@@ -39,7 +39,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/aperture-sci/DevOps.git
+        repoURL: https://github.com/patrick-smergut-octopus/CfDevOps.git
         targetRevision: main
         path: '{{.path.path}}/{{.short}}'
       destination:

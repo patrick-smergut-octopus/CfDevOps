@@ -28,7 +28,7 @@ spec:
         namespace: '{{ns}}'
       source:
         path: 'manifests/trio-app/aperture-{{short}}'
-        repoURL: 'https://github.com/aperture-sci/DevOps'
+        repoURL: 'https://github.com/patrick-smergut-octopus/CfDevOps'
         targetRevision: main
       project: default
       syncPolicy:

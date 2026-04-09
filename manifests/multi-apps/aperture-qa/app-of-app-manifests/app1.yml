@@ -19,7 +19,7 @@ spec:
         namespace: "{{namespace}}"
       source:
         path: manifests/multi-apps/aperture-qa/app1
-        repoURL: 'https://github.com/aperture-sci/DevOps'
+        repoURL: 'https://github.com/patrick-smergut-octopus/CfDevOps'
         targetRevision: HEAD
       project: default
       syncPolicy:

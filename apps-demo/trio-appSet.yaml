@@ -7,9 +7,11 @@ spec:
     - list:
         elements:
           - cluster: demo-dev
+            url: https://kubernetes.default.svc
             short: dev
             ns: dev
           - cluster: demo-qa
+            url: https://kubernetes.default.svc
             short: qa
             ns: qa
   template:
@@ -27,11 +29,11 @@ spec:
 
     spec:
       destination:
-        name: '{{cluster}}'
+        server: '{{url}}'
         namespace: '{{ns}}'
       source:
         path: 'manifests/trio-app/aperture-{{short}}'
-        repoURL: 'https://github.com/aperture-sci/DevOps'
+        repoURL: 'https://github.com/patrick-smergut-octopus/CfDevOps'
         targetRevision: main
       project: default
       syncPolicy:

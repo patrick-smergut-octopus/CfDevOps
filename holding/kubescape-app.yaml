@@ -20,7 +20,7 @@ spec:
       releaseName: kubescape
       valueFiles:
         - $values/helm/kubescape/values.yaml
-  - repoURL: https://github.com/aperture-sci/DevOps
+  - repoURL: https://github.com/patrick-smergut-octopus/CfDevOps
     targetRevision: main
     ref: values
   syncPolicy:

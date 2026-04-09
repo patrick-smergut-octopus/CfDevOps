@@ -10,7 +10,7 @@ spec:
     namespace: codefresh-hosted
   source:
     path: manifests/multi-apps/aperture-qa/app-of-app-manifests
-    repoURL: 'https://github.com/aperture-sci/DevOps'
+    repoURL: 'https://github.com/patrick-smergut-octopus/CfDevOps'
     targetRevision: HEAD
   project: default
   syncPolicy:

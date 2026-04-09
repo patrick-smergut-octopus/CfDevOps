@@ -16,7 +16,7 @@ spec:
     namespace: monitoring
     name: in-cluster
   source:
-    repoURL: https://github.com/aperture-sci/DevOps.git
+    repoURL: https://github.com/patrick-smergut-octopus/CfDevOps.git
     path: manifests/prometheus/low
     targetRevision: main
   syncPolicy:

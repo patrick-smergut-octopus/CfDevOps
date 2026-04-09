@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     path: ./manifests/crossplane-example-app/crossplane/
-    repoURL: https://github.com/aperture-sci/DevOps.git
+    repoURL: https://github.com/patrick-smergut-octopus/CfDevOps.git
     targetRevision: HEAD
   destination:
     name: in-cluster

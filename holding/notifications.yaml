@@ -17,7 +17,7 @@ spec:
     namespace: high
 
   source:
-    repoURL: https://github.com/aperture-sci/DevOps
+    repoURL: https://github.com/patrick-smergut-octopus/CfDevOps
     path: manifests/notifications/prod
     targetRevision: main
   syncPolicy:

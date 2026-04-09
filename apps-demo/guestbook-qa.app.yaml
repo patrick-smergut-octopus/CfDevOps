@@ -13,7 +13,7 @@ spec:
   project: default
   source:
     path: manifests/guestbook/qa
-    repoURL: https://github.com/aperture-sci/DevOps
+    repoURL: https://github.com/patrick-smergut-octopus/CfDevOps
     targetRevision: main
   syncPolicy:
     automated:
